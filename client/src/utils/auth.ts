@@ -3,18 +3,28 @@ import { JwtPayload, jwtDecode } from 'jwt-decode';
 class AuthService {
   getProfile() {
     // TODO: return the decoded token
+    const token = this.getToken();
+    return jwtDecode<JwtPayload>(token);
   }
 
   loggedIn() {
     // TODO: return a value that indicates if the user is logged in
+    const token = this.getToken();
+    if (token) {
+      return true;
+    }
   }
   
   isTokenExpired(token: string) {
     // TODO: return a value that indicates if the token is expired
+    this.isTokenExpired(token);
+    return false;
   }
 
   getToken(): string {
     // TODO: return the token
+    const activeUser = localStorage.getItem('token') || '';
+    return activeUser;
   }
 
   login(idToken: string) {
