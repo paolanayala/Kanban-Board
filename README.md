@@ -7,13 +7,13 @@ This project was built to provide a secure and user-friendly platform for managi
 # Features
 **Secure Authentication:** Login page with form inputs for username and password.
 
-**Token Management: ** JWT-based authentication, securely stored in the client’s local storage.
+**Token Management:** JWT-based authentication, securely stored in the client’s local storage.
 
 **Error Handling:** Informative error messages for incorrect credentials.
 
 **Session Management:** Automatic session expiration after a defined period of inactivity.
 
-**Task Management: ** Intuitive Kanban board for creating, updating, and managing tasks.
+**Task Management:** Intuitive Kanban board for creating, updating, and managing tasks.
 
 **Logout Functionality:** Secure removal of JWT and redirection to the login page.
 
