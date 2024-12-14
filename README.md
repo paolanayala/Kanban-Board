@@ -7,13 +7,13 @@ This project was built to provide a secure and user-friendly platform for managi
 # Features
 **Secure Authentication:** Login page with form inputs for username and password.
 
-**Token Management: **JWT-based authentication, securely stored in the client’s local storage.
+**Token Management: ** JWT-based authentication, securely stored in the client’s local storage.
 
 **Error Handling:** Informative error messages for incorrect credentials.
 
 **Session Management:** Automatic session expiration after a defined period of inactivity.
 
-**Task Management: **Intuitive Kanban board for creating, updating, and managing tasks.
+**Task Management: ** Intuitive Kanban board for creating, updating, and managing tasks.
 
 **Logout Functionality:** Secure removal of JWT and redirection to the login page.
 
@@ -24,11 +24,11 @@ This project was built to provide a secure and user-friendly platform for managi
 Clone the repository, navigate to the project directory, install dependencies, configure environment variables, and finally start the development server in order to access the app in your browser. 
 
 # Usage
-1.** Login:** Use your credentials to log in and access the Kanban board.
+1. **Login:** Use your credentials to log in and access the Kanban board.
 
 2. **Manage Tasks:** Create, update, and move tasks across different stages of the board.
 
-**Logout:** Log out securely to invalidate your session.
+3. **Logout:** Log out securely to invalidate your session.
 
 # Future Enhancements 
 Role-based access control for team collaboration.
